@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/galeriaBtn"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Galeria" />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/videoBtn"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:text="VIDEO" />
+
+    <Button
+        android:id="@+id/locBtn"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cameraBtn"
+        android:layout_alignTop="@+id/videoBtn"
+        android:text="Mapas" />
+
+    <Button
+        android:id="@+id/vibraBtn"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Vibração" />
+
+    <Button
+        android:id="@+id/telBtn"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cameraBtn"
+        android:layout_alignTop="@+id/vibraBtn"
+        android:text="Telefone" />
+
+    <Button
+        android:id="@+id/alarmBtn"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="178dp"
+        android:text="Alarme" />
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cameraBtn"
+        android:layout_alignTop="@+id/alarmBtn"
+        android:text="Contato" />
+</RelativeLayout>
